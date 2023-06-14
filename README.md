@@ -1,3 +1,7 @@
+start app: 
+    tsc
+    node dist/index.ts
+
 create migrations: npm run db:migrate   
 
 Queries for filling tables through sql:
