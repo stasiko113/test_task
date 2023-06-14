@@ -1,4 +1,5 @@
 start app: 
+
     tsc
     node dist/index.ts
 
