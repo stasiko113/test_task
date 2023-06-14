@@ -19,6 +19,6 @@ Queries for filling tables through sql:
     FROM EventsMock 
     WHERE event_type = 1;
     
-BUT you can just restore from dump: 
+BUT you can just restore from dump: https://drive.google.com/file/d/1g3O4_TLatAmTnDNe5axoZtYL23ETJSTZ/view?usp=sharing
 
 Endpoint for calling: http://localhost:3000/?startDate=2018-01-19&endDate=2039-02-26&page=2
