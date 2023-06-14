@@ -18,8 +18,6 @@ export const getBetweenDate = async (startDate: Date, endDate: Date, page: numbe
     const uniqueSourse = Array.from(new Set(sources.map(elem => elem.source)));
     const sourceUsersIds = Array.from(new Set(sources.map(elem => elem.user_id)));
 
-    console.log(sourceUsersIds)
-
     return { sources, sourceUsersIds, uniqueSourse };
 }
 

@@ -34,25 +34,8 @@ User.init(
       },
   },
   {
-    indexes:[
-      {
-        unique: false,
-        using: 'BTREE',
-        fields:['first_visit']
-      },
-      {
-        unique: false,
-        using: 'BTREE',
-        fields:['user_id']
-      },
-      {
-        unique: false,
-        using: 'FULLTEXT',
-        fields:['from_source']
-      },
-    ],
     sequelize: sequelizeConnection,
-    tableName: 'Users',
+    tableName: 'Users3',
     timestamps: false,
   }
 );

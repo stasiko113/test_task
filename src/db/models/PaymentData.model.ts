@@ -48,18 +48,6 @@ class PaymentData extends Model<PaymentDataAttributes> implements PaymentDataAtt
       },
     },
     {
-      indexes:[
-        {
-          unique: false,
-          using: 'BTREE',
-          fields:['created_at']
-        },
-        {
-          unique: false,
-          using: 'BTREE',
-          fields:['user_id']
-        },
-      ],
       sequelize: sequelizeConnection,
       tableName: 'PaymentData',
       timestamps: false,

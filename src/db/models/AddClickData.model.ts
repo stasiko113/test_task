@@ -49,23 +49,6 @@ AddClickData.init(
       },
     },
     {
-      indexes:[
-        {
-          unique: false,
-          using: 'BTREE',
-          fields:['created_at']
-        },
-        {
-          unique: false,
-          using: 'BTREE',
-          fields:['user_id']
-        },
-        {
-          unique: false,
-          using: 'FULLTEXT',
-          fields:['source']
-        },
-      ],
       sequelize: sequelizeConnection,
       tableName: 'AdClickData',
       timestamps: false,
